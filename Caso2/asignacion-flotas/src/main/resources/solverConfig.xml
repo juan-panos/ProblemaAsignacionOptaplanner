@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+  <solutionClass>com.flotas.asignacion_flotas.domain.VehicleRouteAssignment</solutionClass>
+  <entityClass>com.flotas.asignacion_flotas.domain.Route</entityClass>
+
+  <scoreDirectorFactory>
+    <constraintProviderClass>com.flotas.asignacion_flotas.constraint.VehicleRoutingConstraintProvider</constraintProviderClass>
+  </scoreDirectorFactory>
+
+  <termination>
+    <secondsSpentLimit>10</secondsSpentLimit>
+  </termination>
+</solver>

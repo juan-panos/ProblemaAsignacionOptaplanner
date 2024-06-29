@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+  <solutionClass>com.proyectos.asignacionProyectos.dominio.AsignacionProyecto</solutionClass>
+  <entityClass>com.proyectos.asignacionProyectos.dominio.Estudiante</entityClass>
+
+  <scoreDirectorFactory>
+    <constraintProviderClass>com.proyectos.asignacionProyectos.restricciones.Restricciones</constraintProviderClass>
+  </scoreDirectorFactory>
+
+  <termination>
+    <secondsSpentLimit>60</secondsSpentLimit>
+  </termination>
+</solver>
